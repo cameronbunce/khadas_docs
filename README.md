@@ -1,7 +1,7 @@
 # Khadas documentation
 <!-- Markdown snippet -->
 
-[![Build Status](https://travis-ci.org/khadas/khadas_docs.svg?branch=master)](https://travis-ci.org/khadas/khadas_docs)
+[![Build Status](https://github.com/khadas/khadas_docs/actions/workflows/main.yaml/badge.svg?branch=master)](https://github.com/khadas/khadas_docs/actions/workflows/main.yaml)
 
 ## Getting started
 
@@ -22,7 +22,9 @@ $ source ~/.bashrc
 
 install node.js:
 ```
-$ nvm install v10.20
+$ nvm install v12.9.0
+$ nvm alias default v12.9.0
+$ nvm use v12.9.0
 ```
 
 Install dependencies:
